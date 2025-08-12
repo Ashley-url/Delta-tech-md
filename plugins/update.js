@@ -1,9 +1,9 @@
-const fs = require("fs");
+/* const fs = require("fs");
 const path = require("path");
 const axios = require("axios");
 const AdmZip = require("adm-zip");
 
-gmd({
+cmd({
     pattern: "update",
     alias: ["updatenow", "botupdate"],
     react: "✅",
@@ -68,3 +68,5 @@ function copyFolderSync(source, target) {
         }
     }
 }
+
+*/
