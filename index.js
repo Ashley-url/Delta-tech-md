@@ -80,7 +80,7 @@ async function loadSession() {
     }
 
     // Handle base64 session with starcore~ prefix
-    if (config.SESSION_ID.startsWith("starcore~")) {
+    if (config.SESSION_ID.startsWith("deltacore~")) {
       console.log(chalk.yellow("[ ⏳ ] Decoding base64 session..."));
       const base64Data = config.SESSION_ID.replace("deltacore~", "");
       
